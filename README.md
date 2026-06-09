@@ -1,20 +1,115 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🌐 Gyan Web Order
 
-# Run and deploy your AI Studio app
+**Gyan Web Order** is a modern React-based platform that allows users to easily order custom websites by submitting their requirements, uploading assets, and communicating directly with the developer.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/8972c16d-0b5f-4857-88e0-a72502bb3e83
+## 🚀 Features
 
-## Run Locally
+* 📝 Submit website requirements (type, description, budget)
+* 📁 Upload ZIP files (images, assets, references)
+* 🌐 Request custom domain (optional)
+* 💬 Real-time chat with developer
+* 📊 Order tracking system (Pending → In Progress → Completed)
+* 💳 Secure payment confirmation system
+* 📦 Final delivery via ZIP file or live website link
+* 🧑‍💻 Admin dashboard for managing all orders
 
-**Prerequisites:**  Node.js
+---
 
+## 🛠️ Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+* **Frontend:** React.js
+* **Styling:** CSS / Tailwind (if used)
+* **Backend (optional):** Node.js / Firebase
+* **Database:** MongoDB / Firebase
+* **Storage:** Cloudinary / Firebase Storage
+
+---
+
+## 📂 Project Structure
+
+```
+Gyan-Web-Order/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   └── App.jsx
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+
+```
+git clone https://github.com/your-username/Gyan-Web-Order.git
+```
+
+2. Navigate to project:
+
+```
+cd Gyan-Web-Order
+```
+
+3. Install dependencies:
+
+```
+npm install
+```
+
+4. Run the project:
+
+```
+npm run dev
+```
+
+---
+
+## 🌍 Deployment
+
+To deploy on GitHub Pages:
+
+```
+npm run build
+npm run deploy
+```
+
+---
+
+## 🔐 Security Note
+
+* Do NOT store sensitive data (passwords, payment credentials) in frontend
+* Use `.env` for private configurations
+* Always validate user inputs
+
+---
+
+## 📌 Future Improvements
+
+* Full payment gateway integration (Razorpay/Stripe)
+* Advanced admin analytics
+* Notifications system
+* SEO optimization with Next.js
+
+---
+
+## 👨‍💻 Author
+
+**Gyan Dev**
+Founder of Gyan Web Order
+
+---
+
+## ⭐ Support
+
+If you like this project, please ⭐ the repository and share it!
+
+---
